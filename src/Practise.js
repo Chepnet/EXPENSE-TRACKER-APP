@@ -23,3 +23,13 @@ function save()
 
 console.log(count+200)
 }
+function  Save1()
+{
+    return(
+        <div>
+            <p>I am here on practise </p>
+            <button id="save-btn"onClick={logLabTime()}>SAVE</button>
+        </div>
+    )
+}
+export default Save1

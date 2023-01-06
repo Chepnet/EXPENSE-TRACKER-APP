@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import { ReactDOM } from 'react';
+import Save1 from './Practise.js';
+import LoginForm from './Practise/Form';
+
 
 import React from 'react';
 
@@ -15,16 +18,14 @@ function App() {
 Transaction List will appear here
 <div></div>
 </div>
-<h2 id="count-el">0</h2>
-let countEl=document.getDocumentById("count-el")
-let count=0;
-count=count+1
-countEl.innerText=count;
+<Save1/>
+<LoginForm name="Zipporah Langat " email="zippychep@gmail.com"/>
 </div>
 
      
   );
 }
+
 
 
 export default App;
