@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import { ReactDOM } from 'react';
+
+import React from 'react';
+
 
 function App() {
   return (
@@ -9,25 +13,18 @@ function App() {
      <input ></input>
 <div>
 Transaction List will appear here
-
+<div></div>
+</div>
+<h2 id="count-el">0</h2>
+let countEl=document.getDocumentById("count-el")
+let count=0;
+count=count+1
+countEl.innerText=count;
 </div>
 
-
-     <div>
-      <form>
-        <div>
-        <label>Description:</label> <input ></input>
-                </div>
-
-        <div>
-        <label>Amount:</label>  <input ></input>
-      
-        </div>
-        <button>Add Transaction</button>
-      </form>
-     </div>
-    </div>
+     
   );
 }
+
 
 export default App;
